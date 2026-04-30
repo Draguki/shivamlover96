@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "i5FxNWL1AqQ2v-iH3rIHs"
+uri = "file://artifacts/learnsync/public/images/hero-bg.png"
+type = "image"
+title = "cinematic AI learning hero background"
+
+[[generated]]
+id = "I9GJtJiZO-jthdKYemSAy"
+uri = "file://artifacts/learnsync/public/images/dashboard-mockup.png"
+type = "image"
+title = "dashboard dashboard UI mockup"
+
+[[generated]]
+id = "euZPcqg0gYa7t0XoP0tFP"
+uri = "file://artifacts/learnsync/public/images/course-react.png"
+type = "image"
+title = "react nextjs course thumbnail"
+
+[[generated]]
+id = "cAYXMzBi-PIoA8ZPtAN_7"
+uri = "file://artifacts/learnsync/public/images/course-ml.png"
+type = "image"
+title = "machine learning pyTorch course thumbnail"
+
+[[generated]]
+id = "isGKLbsxHjgMSooANOhTX"
+uri = "file://artifacts/learnsync/public/images/course-hacking.png"
+type = "image"
+title = "ethical hacking course thumbnail"
+
+[[generated]]
+id = "OLKW354QMFA_252YYo4cK"
+uri = "file://artifacts/learnsync/public/images/course-music.png"
+type = "image"
+title = "music production course thumbnail"
+
+[[generated]]
+id = "WX7VnlrRtbtdur1p9kqSM"
+uri = "file://artifacts/learnsync/public/images/course-design.png"
+type = "image"
+title = "product design figma course thumbnail"
+
+[[generated]]
+id = "f8sQ1KN-7_4MaGFbNkOu_"
+uri = "file://artifacts/learnsync/public/images/avatar-1.png"
+type = "image"
+title = "indian male instructor avatar"
+
+[[generated]]
+id = "qrcRWA6lk0ID9GOkYnXlY"
+uri = "file://artifacts/learnsync/public/images/avatar-2.png"
+type = "image"
+title = "indian female instructor avatar"
+
+[[generated]]
+id = "WCWiGdmXgv9mLhpu4CtM0"
+uri = "file://artifacts/learnsync/public/images/avatar-3.png"
+type = "image"
+title = "international male instructor avatar"
