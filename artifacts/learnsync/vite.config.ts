@@ -1,8 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-
-// DO NOT hard fail on missing env vars in config
-// Vercel build does not provide PORT
+import path from "path";
 
 export default defineConfig(({ mode }) => {
   const isDev = mode === "development";
@@ -10,8 +8,13 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
 
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./src"),
+      },
+    },
+
     server: {
-      // Safe default for local dev only
       port: Number(process.env.PORT) || 5173,
       host: true,
     },
@@ -26,9 +29,8 @@ export default defineConfig(({ mode }) => {
       sourcemap: isDev,
     },
 
-    // Optional but good hygiene
     define: {
-      "process.env": {}, // prevents undefined crashes in frontend
+      "process.env": {},
     },
   };
 });
