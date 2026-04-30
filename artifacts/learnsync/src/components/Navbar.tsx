@@ -50,11 +50,11 @@ export function Navbar() {
 
         <div className="flex items-center gap-4">
           <ThemeToggle />
-          <Link href="/dashboard" className="hidden sm:inline-flex text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+          <Link href="/login" className="hidden sm:inline-flex text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
             Sign in
           </Link>
           <Button asChild className="rounded-full px-6">
-            <Link href="/dashboard">Get Started</Link>
+            <Link href="/signup">Get Started</Link>
           </Button>
         </div>
       </div>

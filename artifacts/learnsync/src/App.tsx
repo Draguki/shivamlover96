@@ -10,6 +10,7 @@ import Explore from "@/pages/Explore";
 import Paths from "@/pages/Paths";
 import Achievements from "@/pages/Achievements";
 import Admin from "@/pages/Admin";
+import Login from "@/pages/Login";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,8 @@ function Router() {
       <Route path="/paths" component={Paths} />
       <Route path="/achievements" component={Achievements} />
       <Route path="/admin" component={Admin} />
+      <Route path="/login" component={Login} />
+      <Route path="/signup" component={Login} />
       {/* Map learning, community, etc to explore for demo purposes */}
       <Route path="/learning" component={Dashboard} />
       <Route path="/community" component={Explore} />
